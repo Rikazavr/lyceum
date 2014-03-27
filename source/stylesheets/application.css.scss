@@ -1,0 +1,387 @@
+@import "normalize";
+
+  body, h1, h2, h3, h4, h5, h6 {
+font: 14px/18px Verdana, sans-serif;
+}
+code, kbd, pre, samp, tt, var {
+font: 14px/18px Consolas, "Courier New", monospace;
+}
+body, optgroup {
+color: #000;
+background: #fff;
+}
+body, code, dl, dd, form, pre {
+margin: 0;
+}
+a:link img, a:visited img, object, fieldset, abbr, acronym {
+border: none;
+}
+sub, sup {
+position: relative;
+display: inline-block;
+font-size: 11px;
+line-height: 11px;
+}
+sub {
+top: 5px;
+vertical-align: middle;
+}
+sup {
+top: -2px;
+margin-top: -11px;
+}
+abbr, acronym {
+cursor: help;
+border-bottom: 1px dotted #999;
+}
+address, cite, dfn {
+font-style: normal;
+}
+code, pre {
+white-space: pre-wrap;
+}
+img {
+vertical-align: bottom;
+}
+td, th, textarea {
+vertical-align: top;
+}
+input, select, button {
+overflow: visible;
+vertical-align: middle;
+}
+legend {
+color: #000;
+margin: 0 0 -2px;
+padding: 0;
+}
+li {
+display: block;
+list-style: none;
+}
+optgroup option {
+padding-left: 22px;
+}
+caption, th {
+text-align: left;
+}
+td, th {
+padding: 0;
+}
+address, blockquote, h1, h2, h3, h4, h5, h6, fieldset, p, ol, ul {
+margin: 0;
+padding: 0;
+}
+th, h1, h2, h3, h4, h5, h6 {
+font-weight: normal;
+}
+
+// ===============================================Начало
+body{
+  letter-spacing: -4em;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrapper{
+  width: 1127px;
+  margin: 0 auto;
+  letter-spacing: 0em;
+}
+
+.sidebar{
+  width: 920px;
+  height: auto;
+  display: inline-block;
+  float: left;
+}
+
+.advert{
+  width: 550px;
+  display: inline-block;
+  float: right;
+  position: absolute;
+  top:75px;
+  margin-left:90px;
+}
+
+.important{
+  font-weight: bold;
+  margin-left: 46px;
+}
+
+.advert-meta{
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+  color: #cccccc;
+}
+
+a{
+  color: #1b83cc;
+  text-decoration: underline;
+}
+
+.logo{
+  width: 228px;
+  height: 130px;
+  background-image:url(../images/logo.jpg);
+  margin: 45px 0 45px 0;
+  display: inline-block;
+}
+
+.hat{
+  height: 286px;
+  width: 1037px;
+  background-image: url(../images/hat.jpg);
+  padding: 50px 0px 0px 90px;
+  color: #fff;
+  font-size: 23px;
+  line-height: 30px;
+}
+
+.hat a{
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.hat h{
+  font-size: 46px;
+}
+
+.about{
+  width: 750px;
+  display: inline-block;
+  float: left;
+}
+
+.about-menu{
+  display: inline-block;
+  width: 235px;
+}
+
+.about a{
+  color:#fff;
+}
+
+.hat h3{
+  color:#fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.main{
+  width: 1127px;
+  line-height: 25px;
+}
+
+aside{
+  width:208px;
+  display: inline-block;
+  float: right;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.aside-menu{
+  margin-top: 30px;
+}
+
+h2{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contain{
+  width: 860px;
+  display:inline-block;
+  
+}
+
+.rubric-container{
+  margin: 25px 0;
+}
+
+.rubric{
+  display: inline-block;
+  height: 15px;
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+  line-height: 15px;
+  padding: 4px 5px 4px 5px;
+  margin-right: 5px;
+}
+
+.all-news{
+  background-color: #0061aa;
+}
+
+.postupaushim{
+  background-color: #ffba26;
+}
+
+.graduates{
+  background-color: #f55996;
+}
+
+.for-student{
+  background-color: #ff8000;
+}
+
+.actions{
+  background-color: #3cc1ae;
+}
+
+.professors{
+  background-color: #01a4da;
+}
+
+.life{
+  background-color: #0061aa;
+}
+
+.projects{
+  background-color: #ffba26;
+}
+
+.photo{
+  background-color: #f55996;
+}
+
+.news-list{
+  width: 860px;
+  margin-top:40px;
+}
+
+.news{
+  width: 860px;
+  margin-bottom: 20px;
+}
+
+.news-block{
+  width: 720px;
+  display: inline-block;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.news-block p{
+  margin-bottom: 20px;
+}
+
+.news-link{
+  font-size: 26px;
+  color: #000;
+  display: block;
+  margin-bottom: 15px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.news-meta{
+  width: 60px;
+  margin-right: 30px;
+  margin-top: 5px;
+  float: left;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.year{
+  width: 35px;
+  margin: 0 auto;
+  border-bottom: 1px solid #cccccc;
+  color: #cccccc;
+  font-size: 12px;
+  text-align: center;
+}
+
+.comments{
+  color: #cccccc;
+  font-size: 14px;
+}
+
+.comments:before
+{ 
+content:"*";
+}
+
+.icon{
+  width: 60px;
+  height: 60px;
+  display: block;
+  background-color: #ccccfc;
+}
+
+.calendar{
+  width: 45px;
+  height: 38px;
+  padding-top: 7px;
+  border: 1px solid #cccccc;
+  border-top: 3px solid blue;
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  line-height: 15px;
+  font-size: 16px;
+}
+
+.next-page{
+  display: block;
+  width: 250px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: #0061aa;
+  margin-left: 90px;
+  margin-top:50px;
+}
+
+.pages{
+  height: 30px;
+  width: 800px;
+  margin: 50px 0px 50px 90px;
+}
+
+.pages ul{
+  display: inline-block;
+}
+
+.pages li{
+  display: inline-block;
+  padding-right: 15px;
+}
+
+.active{
+  text-decoration: none;
+  text-align: center;
+  line-height: 24px;
+  color: black;
+  font-weight: bold;
+  border: 1px solid black;
+  height: 24px;
+  width: 24px;
+  display: block;
+  border-radius: 12px;
+}
+
+footer{
+  height: 350px;
+  border-top: 1px solid #cccccc;
+  padding-top: 20px;
+}
+
+.footer-menu{
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
+}
+
+.footer-menu.useful{
+}
